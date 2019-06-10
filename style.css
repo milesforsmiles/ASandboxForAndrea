@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #E9FFE1;
+}
+
+
+#theGoodButton, #theBadButton, #rickRoll {
+	background-color: #9BEE60;
+	padding: 10px 10px;
+	border-radius: 34vw;
+	width: 95%;
+	font-style: italic;
+	font-family: 'Courgette';
+	font-size: 90%;
+
+}
+
 /* Header/logo Title */
 .header {
   padding: 80px;
