@@ -82,13 +82,14 @@ p {
 }
 
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
- .sideNav, #slogan {
-    width:100%;
-  }
+
 
  @media only screen and (max-width:620px  ) {
+
+   .sideNav, #slogan {
+      width:100%;
+    }
+
    .row {
    flex-direction: column;
  }
