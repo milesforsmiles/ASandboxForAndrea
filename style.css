@@ -95,7 +95,7 @@ p {
       width:100%;
     }
 
-   #ephemeralClock,.row {
+   #theGoodButton, #theBadButton, #rickRoll,.row {
    flex-direction: column;
  }
 
