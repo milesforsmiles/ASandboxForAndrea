@@ -48,11 +48,14 @@ body {
 
 
 /* Change color on hover */
-.navbar a:hover {
-  background-color: #6DB93A;
-  box-shadow: 7px 8px  rgba(0,0,0,0.15),
-  0 10px 14px 0 rgba(0,0,0,0.19);
-}
+.navbar
+  #theGoodButton:hover, #theBadButton:hover, #rickRoll:hover {
+  	background-color: #6DB93A;
+  	box-shadow: 7px 8px  rgba(0,0,0,0.15),
+  	0 10px 14px 0 rgba(0,0,0,0.19);
+
+  }
+
 
 /* Column container */
 .row {
