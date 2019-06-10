@@ -6,6 +6,8 @@ body {
   background-color: #E9FFE1;
 }
 
+
+
 /* Header/logo Title */
 .header {
   background-color: #E9FFE1;
@@ -13,8 +15,9 @@ body {
   background: white;
   color: white;
 }
-
-
+.navbar {
+  overflow: hidden;
+}
 /* Style the navigation bar links */
 .navbar, #theGoodButton, #theBadButton, #rickRoll {
   background-color: #9BEE60;
