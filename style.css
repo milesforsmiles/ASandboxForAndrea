@@ -63,7 +63,7 @@ p {
   display:block;
   padding:10px;
   text-align:right;
-  position: fixed;
+  position: absolute;
   bottom: 37%;
   right: 3%;
 }
