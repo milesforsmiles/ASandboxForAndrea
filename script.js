@@ -41,7 +41,9 @@ document.getElementById('rickRoll').onclick = function () {
     function drawNumbers(ctx, radius) {
       var ang;
       var num;
-      ctx.font = radius*0.15 + "px Balloon";
+
+      ctx.font = radius*0.15 ;
+      ctx.font='30px Courier New';
       ctx.textBaseline="left";
       ctx.textAlign="center";
       for(num = 1; num < 13; num++){
