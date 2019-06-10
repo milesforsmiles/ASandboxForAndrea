@@ -27,7 +27,7 @@ body {
 }
 
 #ephemeralClock {
-  position: sticky;
+  position: fixed;
   bottom: 20vw;
   right: 15vw;
 }
@@ -38,7 +38,6 @@ body {
   font-size: 4.5vw;
   text-align: center;
   width: 65%;
-  position: fixed;
   bottom: 6vw;
   right: 16vw;
 }
@@ -63,7 +62,6 @@ p {
   display:block;
   padding:10px;
   text-align:right;
-  position: absolute;
   bottom: 37%;
   right: 3%;
 }
