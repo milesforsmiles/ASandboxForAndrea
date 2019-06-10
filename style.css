@@ -11,8 +11,12 @@ body {
 	font-style: italic;
 	font-family: 'Courgette';
 	font-size: 90%;
+}
 
-
+#ephemeralClock {
+  position: sticky;
+  bottom: 30vw;
+  right: 2vw;
 }
 
 #slogan {
@@ -49,4 +53,33 @@ p {
   position: fixed;
   bottom: 37%;
   right: 3%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+ .sideNav, #slogan {
+    width:100%;
+  }
+
+ @media only screen and (max-width:620px  ) {
+  /* For mobile phones: */
+   #theGoodButton, #theBadButton, #rickRoll{
+  	display: block;
+  	width: 105%;
+  	border-radius: 0vw;
+  	border: none;
+
+  }
+
+  #theGoodButton {
+  	text-align: left;
+  	text-indent: 3.5vw;
+  }
+  #theBadButton{
+  	text-align: middle;
+  }
+  #rickRoll {
+  	text-align: right;
+  }
+
 }
