@@ -7,23 +7,6 @@ body {
 }
 
 
-#theGoodButton, #theBadButton, #rickRoll {
-	background-color: #9BEE60;
-	padding: 10px 10px;
-	border-radius: 34vw;
-	width: 95%;
-	font-style: italic;
-	font-family: 'Courgette';
-	font-size: 90%;
-
-}
-
-#theGoodButton:hover, #theBadButton:hover, #rickRoll:hover {
-	background-color: #6DB93A;
-	box-shadow: 7px 8px  rgba(0,0,0,0.15),
-	0 10px 14px 0 rgba(0,0,0,0.19);
-
-}
 
 /* Header/logo Title */
 .header {
@@ -52,17 +35,23 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-}
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
+  	background-color: #9BEE60;
+  	padding: 10px 10px;
+  	border-radius: 34vw;
+  	width: 95%;
+  	font-style: italic;
+  	font-family: 'Courgette';
+  	font-size: 90%;
+
+  }
+
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #6DB93A;
+  box-shadow: 7px 8px  rgba(0,0,0,0.15),
+  0 10px 14px 0 rgba(0,0,0,0.19);
 }
 
 /* Column container */
