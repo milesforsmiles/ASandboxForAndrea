@@ -21,12 +21,14 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden;
-
+ background-color: #9BEE60;
 }
 
 /* Style the navigation bar links */
 .navbar #theGoodButton, #theBadButton, #rickRoll {
+
+  background-color: #9BEE60;
+
   float: left;
   display: block;
   text-align: center;
