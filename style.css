@@ -8,18 +8,16 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding: 0px;
   text-align: center;
-  background: clear;
+  background: white;
   color: white;
 }
 
 
 /* Style the navigation bar links */
 .navbar, #theGoodButton, #theBadButton, #rickRoll {
-
   background-color: #9BEE60;
-
   float: left;
   display: block;
   text-align: center;
