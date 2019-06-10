@@ -25,7 +25,7 @@ body {
 }
 
 /* Style the navigation bar links */
-.navbar #theGoodButton, #theBadButton, #rickRoll {
+.navbar, #theGoodButton, #theBadButton, #rickRoll {
 
   background-color: #9BEE60;
 
