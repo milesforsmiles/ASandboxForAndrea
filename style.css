@@ -7,7 +7,8 @@ body {
 }
 
 #ephemeralClock{
-  position: sticky;
+  position: fixed;
+  overflow:hidden;
   top: 0;
 }
 
@@ -27,10 +28,8 @@ body {
   float: left;
   display: block;
   text-align: center;
-  padding: 30px 20px;
+  padding: 10px 10px;
   background-color: #9BEE60;
-  border-radius: 34vw;
-  width: 95%;
   font-style: italic;
   font-family: 'Courgette';
   font-size: 90%;
