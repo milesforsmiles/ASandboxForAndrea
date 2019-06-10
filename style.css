@@ -6,8 +6,6 @@ body {
   background-color: #E9FFE1;
 }
 
-
-
 /* Header/logo Title */
 .header {
   padding: 80px;
@@ -31,19 +29,14 @@ body {
 .navbar #theGoodButton, #theBadButton, #rickRoll {
   float: left;
   display: block;
-
   text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-
-  	background-color: #9BEE60;
-  	padding: 10px 10px;
-  	border-radius: 34vw;
-  	width: 95%;
-  	font-style: italic;
-  	font-family: 'Courgette';
-  	font-size: 90%;
-
+  padding: 30px 20px;
+  background-color: #9BEE60;
+  border-radius: 34vw;
+  width: 95%;
+  font-style: italic;
+  font-family: 'Courgette';
+  font-size: 90%;
   }
 
 
