@@ -3,7 +3,7 @@ document.getElementById('rickRoll').onclick = function () {
         console.log('Gotcha!');
         location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     };
-    var canvas = document.getElementById("canvas");
+    var canvas = document.getElementById("ephemeralClock");
     var ctx = canvas.getContext("2d");
     var radius = canvas.height / 2;
     ctx.translate(radius, radius);
