@@ -7,6 +7,14 @@ body {
   background-color: #E9FFE1;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
 
 #theGoodButton, #theBadButton, #rickRoll {
 	background-color: #9BEE60;
@@ -83,7 +91,7 @@ p {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: green;
 }
 
 
@@ -95,12 +103,10 @@ p {
       width:100%;
     }
 
-   #theGoodButton, #theBadButton, #rickRoll,.row {
+  .row {
    flex-direction: column;
  }
 
-
-  /* For mobile phones: */
    #theGoodButton, #theBadButton, #rickRoll{
   	display: block;
   	width: 105%;
