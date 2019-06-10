@@ -28,7 +28,7 @@ body {
 }
 
 /* Style the navigation bar links */
-.navbar a {
+.navbar #theGoodButton, #theBadButton, #rickRoll {
   float: left;
   display: block;
 
