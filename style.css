@@ -94,7 +94,7 @@ p {
       width:100%;
     }
 
-   .row {
+   #ephemeralClock,.row {
    flex-direction: column;
  }
 
