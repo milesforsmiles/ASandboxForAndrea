@@ -26,30 +26,21 @@ body {
 }
 /* Style the navigation bar links */
 
-#theGoodButton, #theBadButton, #rickRoll {
-  background-color: #9BEE60;
-  display: block;
-  float: left;
-  text-align: center;
-  font-style: italic;
-  font-family: 'Courgette';
+  .navbar a {
+    float: left;
+    display: block;
+    background-color: #9BEE60;
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courgette';
   }
 
-  .navbar{
-    overflow: hidden;
-    width: 100%;
-    color: green;
-  }
-
-
-/* Change color on hover */
-
-  #theGoodButton:hover, #theBadButton:hover, #rickRoll:hover {
-  	background-color: #6DB93A;
-  	box-shadow: 3px 4px  rgba(0,0,0,0.15),
-  	0 10px 14px 0 rgba(0,0,0,0.19);
-
-  }
+  .navbar a:hover {
+    background-color: #6DB93A;
+    box-shadow: 3px 4px  rgba(0,0,0,0.15),
+    0 10px 14px 0 rgba(0,0,0,0.19);
+}
 
 
 /* Column container */
