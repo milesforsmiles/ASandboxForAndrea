@@ -41,7 +41,7 @@
 
       ctx.textBaseline="left";
       ctx.textAlign="center";
-      for(num = 1; num < 13; num++){
+      for(num = 6; num < 18; num++){
         ang = num * Math.PI / 6;
         ctx.rotate(ang);
         ctx.translate(0, -radius*0.85);
