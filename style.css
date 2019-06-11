@@ -28,7 +28,7 @@ body {
 
 #theGoodButton, #theBadButton, #rickRoll {
   background-color: #9BEE60;
-  display: inline-block;
+  display: inline;
   float: left;
   text-align: center;
   font-style: italic;
@@ -36,7 +36,8 @@ body {
   }
 
   .navbar{
-
+    width: 100px;
+  height: 100px;
     background-color: #9BEE60;
     width: 100%;
     padding: 10px 10px;
