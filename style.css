@@ -33,7 +33,7 @@ body {
 }
 
 .navbar a {
-
+    height: 20px;
     padding: 20px 15px;
     display: inline-block;
     color: white;
