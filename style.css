@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: clear;
 }
 
 #ephemeralClock{
@@ -27,8 +27,9 @@ body {
 /* Style the navigation bar links */
 
 .navbar {
-  overflow: hidden;
   background-color: #9BEE60;
+  overflow: hidden;
+
 }
 
 .navbar a {
