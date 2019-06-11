@@ -35,11 +35,12 @@ body {
     font-family: 'Courgette';
   }
 
-  .navbar a:hover {
+
+.navbar a:hover {
     background-color: green;
 }
 
-#row, #side, #main{
+div.row, div.side, div.main{
 opacity: 0.5;
 
 }
