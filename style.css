@@ -36,6 +36,7 @@ body {
   }
 
   .navbar{
+    width: 100%;
     color: green;
     padding: 20px 20px;
   }
