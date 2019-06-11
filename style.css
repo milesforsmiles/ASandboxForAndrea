@@ -28,7 +28,7 @@ body {
 
 #theGoodButton, #theBadButton, #rickRoll {
   background-color: #9BEE60;
-  display: inline;
+  display: block;
   float: left;
   text-align: center;
   font-style: italic;
