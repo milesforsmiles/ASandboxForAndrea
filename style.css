@@ -36,11 +36,11 @@ body {
   }
 
   .navbar{
+      background-color: #9BEE60;
     width: 100px;
-  height: 100px;
-    background-color: #9BEE60;
-    width: 100%;
-    padding: 10px 10px;
+    height: 100px;
+
+    padding: 20px 20px;
   }
 
 
