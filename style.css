@@ -23,16 +23,16 @@ html {
 }
 
 .navbar {
-
+  height: 15%;
+  padding: 10px;
+  border: 2px;
   overflow: hidden;
   display: block;
   background-color: lightgreen;
 }
 
 .navbar a {
-    height: 15%;
-    padding: 10px;
-    border: 2px;
+
     color: white;
     font-style: italic;
     font-family: 'Courgette';
