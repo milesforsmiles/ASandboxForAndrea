@@ -34,8 +34,10 @@ body {
 
 .navbar a {
     height: 30px;
+    word-spacing: 30px;
+
     padding: 20px 15px;
-    display: inline-block;
+    display: block;
     color: white;
     float: left;
     text-align: center;
