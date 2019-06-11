@@ -12,8 +12,16 @@ body {
   top: 0;
 }
 
+#slogan {
+
+  font-family: 'Courgette';
+  font-size: 4.5vw;
+  text-align: center;
+  width: 65%;
+}
+
 /* Header/logo Title */
-header {
+.header {
   background-color: #E9FFE1;
   text-align: center;
   background: white;
@@ -23,6 +31,7 @@ header {
 .navbar
 #theGoodButton, #theBadButton, #rickRoll {
   overflow: hidden;
+  width: 100%;
   background-color: #9BEE60;
   float: left;
   display: block;
