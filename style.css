@@ -28,14 +28,17 @@ body {
 /* Style the navigation bar links */
 .navbar
 #theGoodButton, #theBadButton, #rickRoll {
-  display: inline;
-  width: 100%;
   background-color: #9BEE60;
   float: left;
   text-align: center;
-  padding: 20px 10px;
   font-style: italic;
   font-family: 'Courgette';
+  }
+
+  .navbar{
+    display: inline;
+    width: 100%;
+    padding: 20px 10px;
   }
 
 
