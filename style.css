@@ -8,7 +8,6 @@ body {
 
 #ephemeralClock{
   position: fixed;
-  overflow:hidden;
   top: 0;
 }
 
