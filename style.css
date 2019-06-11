@@ -26,14 +26,14 @@ html {
   width: 100%;
   padding: 5px;
   border: 5px;
-  overflow: hidden;
+  overflow: auto;
   display: block;
   background-color: lightgreen;
 }
 
 .navbar a {
     width:10%;
-    font-size: 18px;
+    font-size: 2.5vw;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
