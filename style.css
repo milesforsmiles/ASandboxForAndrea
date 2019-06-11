@@ -24,15 +24,15 @@ html {
 
 .navbar {
   height: 15%;
-  padding: 10px;
-  border: 2px;
+  padding: 30px;
+  border: 10px;
   overflow: hidden;
   display: block;
   background-color: lightgreen;
 }
 
 .navbar a {
-
+    font-size: 18px;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
