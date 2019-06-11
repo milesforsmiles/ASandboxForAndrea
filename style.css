@@ -27,9 +27,8 @@ body {
 /* Style the navigation bar links */
 
 .navbar {
-  background-color: #9BEE60;
   overflow: hidden;
-
+  background-color: #9BEE60;
 }
 
 .navbar a {
