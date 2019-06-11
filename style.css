@@ -21,14 +21,14 @@ body {
 
 /* Header/logo Title */
 .header {
-  background-color: #E9FFE1;
+  background-color: green;
   text-align: center;
 }
 /* Style the navigation bar links */
 
 .navbar {
   overflow: hidden;
-  background-color: #9BEE60;
+  background-color: lightgreen;
 }
 
 .navbar a {
@@ -41,7 +41,7 @@ body {
   }
 
   .navbar a:hover {
-    background-color: #6DB93A;
+    background-color: darkgreen;
 
 }
 
