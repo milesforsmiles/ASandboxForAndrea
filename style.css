@@ -74,7 +74,7 @@ div.row, div.side, div.main{
 }
 
 /* Fake image, just for this example */
-.fakeimg {
+.img {
   background-color: #aaa;
   width: 100%;
   padding: 30px;
