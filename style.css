@@ -45,7 +45,7 @@ html {
 }
 
 div.row, div.side, div.main{
-    opacity: 0.9;
+    background-color: rgb(119,136,153,0.5);
 }
 
 /* Column container */
@@ -76,7 +76,6 @@ div.row, div.side, div.main{
 
 .img {
   width: 100%;
-  z-index: +2;
   opacity: 1.0;
 }
 
