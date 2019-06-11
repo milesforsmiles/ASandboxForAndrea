@@ -20,11 +20,7 @@ body {
 }
 
 /* Header/logo Title */
-/*THESE DON't ALLOW #jdfi99 colors...! What? It litterally breaks them        */
-.header {
-  background-color: green;
-  text-align: center;
-}
+/*THESE DON't ALLOW #jdfi99 colors...! What? It litterally breaks them */
 /* Style the navigation bar links */
 
 .navbar {
