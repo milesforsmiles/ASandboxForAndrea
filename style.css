@@ -24,7 +24,7 @@ html {
 
 .navbar {
   width: 100%;
-  padding: 20px;
+  padding: 15px;
   border: 10px;
   overflow: hidden;
   display: block;
@@ -32,8 +32,8 @@ html {
 }
 
 .navbar a {
-    width:25%;
-    font-size: 24px;
+    width:15%;
+    font-size: 18px;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
