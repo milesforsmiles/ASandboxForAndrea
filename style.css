@@ -24,7 +24,7 @@ html {
 
 .navbar {
   width: 85%;
-  padding: 5px;
+  padding: 15px;
   border: 5px;
   overflow: auto;
   display: block;
@@ -33,7 +33,7 @@ html {
 
 .navbar a {
     width:10%;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
@@ -44,7 +44,7 @@ html {
 }
 
 div.row, div.side, div.main{
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 /* Column container */
@@ -61,7 +61,7 @@ div.row, div.side, div.main{
   -ms-flex: 40%; /* IE10 */
   flex: 40%;
   background-color: grey;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Main column */
@@ -69,14 +69,14 @@ div.row, div.side, div.main{
   -ms-flex: 60%; /* IE10 */
   flex: 60%;
   background-color: lightgreen;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Footer */
