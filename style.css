@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: clear;
-}
-
 #ephemeralClock{
   position: fixed;
   z-index:-1;
@@ -41,7 +37,7 @@ body {
 }
 
 div.row, div.side, div.main{
-opacity: 0.5;
+    opacity: 0.5;
 
 }
 
