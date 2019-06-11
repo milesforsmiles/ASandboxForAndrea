@@ -31,8 +31,7 @@ body {
   background-color: #9BEE60;
 }
 
-  .navbar a {
-    float: left;
+.navbar a {
     display: block;
     color: white;
     float: left;
