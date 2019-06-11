@@ -30,8 +30,9 @@ html {
 }
 
 .navbar a {
-    height: 10%;
-    padding: 20px 10px;
+    height: 15%;
+    padding: 10px;
+    border: 2px;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
