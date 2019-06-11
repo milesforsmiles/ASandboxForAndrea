@@ -23,8 +23,8 @@ html {
 }
 
 .navbar {
-  height: 45%;
-  padding: 30px;
+  height: 80%;
+  padding: 40px;
   border: 10px;
   overflow: hidden;
   display: block;
@@ -32,7 +32,7 @@ html {
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 24px;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
@@ -43,7 +43,7 @@ html {
 }
 
 div.row, div.side, div.main{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 /* Column container */
