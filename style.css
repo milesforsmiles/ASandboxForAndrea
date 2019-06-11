@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #E9FFE1;
+  background-color: white;
 }
 
 #ephemeralClock{
@@ -13,7 +13,6 @@ body {
 }
 
 #slogan {
-
   font-family: 'Courgette';
   font-size: 4.5vw;
   text-align: center;
@@ -23,15 +22,14 @@ body {
 /* Header/logo Title */
 .header {
   background-color: #E9FFE1;
+  width: 100%;
   text-align: center;
-  background: white;
-  color: white;
 }
 /* Style the navigation bar links */
 .navbar
 #theGoodButton, #theBadButton, #rickRoll {
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
   background-color: #9BEE60;
   float: left;
   display: block;
