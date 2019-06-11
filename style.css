@@ -16,15 +16,15 @@
 }
 
 .navbar {
-  height: 8%;
+
   overflow: hidden;
   display: block;
   background-color: lightgreen;
 }
 
 .navbar a {
-
-    padding: 30px 20px;
+    height: 10%;
+    padding: 20px 10px;
     color: white;
     font-style: italic;
     font-family: 'Courgette';
