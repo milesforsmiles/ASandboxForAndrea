@@ -25,9 +25,10 @@ body {
   text-align: center;
 }
 /* Style the navigation bar links */
-.navbar
+
 #theGoodButton, #theBadButton, #rickRoll {
   background-color: #9BEE60;
+  display: inline;
   float: left;
   text-align: center;
   font-style: italic;
@@ -35,14 +36,14 @@ body {
   }
 
   .navbar{
-    display: inline;
+
     width: 100%;
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 
 
 /* Change color on hover */
-.navbar
+
   #theGoodButton:hover, #theBadButton:hover, #rickRoll:hover {
   	background-color: #6DB93A;
   	box-shadow: 3px 4px  rgba(0,0,0,0.15),
