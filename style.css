@@ -22,7 +22,6 @@ body {
 /* Header/logo Title */
 .header {
   background-color: #E9FFE1;
-  width: 100%;
   text-align: center;
 }
 /* Style the navigation bar links */
@@ -93,7 +92,7 @@ body {
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-.header,.row {
+.header, .row {
     flex-direction: column;
   }
 }
