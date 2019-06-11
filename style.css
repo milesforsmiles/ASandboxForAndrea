@@ -20,12 +20,13 @@
 
 .navbar {
   overflow: hidden;
+  display: inline;
   background-color: lightgreen;
 }
 
 .navbar a {
     padding: 15px 20px;
-    display: inline;
+
     color: white;
     font-style: italic;
     font-family: 'Courgette';
