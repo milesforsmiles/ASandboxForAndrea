@@ -44,8 +44,12 @@ html {
     background-color: green;
 }
 
-div.row, div.side, div.main{
-    background-color: rgb(119,136,153,0.5);
+div.row, div.side{
+    background-color: rgb(119,136,153,0.8);
+}
+div.main{
+    background-color: rgb(222,222,222,0.8);
+  
 }
 
 /* Column container */
