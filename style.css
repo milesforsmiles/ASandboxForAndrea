@@ -19,18 +19,14 @@ body {
   background: white;
   color: white;
 }
-.navbar {
-  overflow: hidden;
-}
 /* Style the navigation bar links */
-.navbar, #theGoodButton, #theBadButton, #rickRoll {
+.navbar #theGoodButton, #theBadButton, #rickRoll {
   overflow: hidden;
   background-color: #9BEE60;
   float: left;
   display: block;
   text-align: center;
   padding: 10px 10px;
-  background-color: #9BEE60;
   font-style: italic;
   font-family: 'Courgette';
   }
