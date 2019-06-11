@@ -34,13 +34,10 @@ body {
 
 .navbar a {
     height: 30px;
-    word-spacing: 30px;
-
+    word-spacing: 20px;
     padding: 20px 15px;
     display: block;
     color: white;
-    float: left;
-    text-align: center;
     font-style: italic;
     font-family: 'Courgette';
   }
