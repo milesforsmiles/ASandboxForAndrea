@@ -37,7 +37,7 @@
 }
 
 div.row, div.side, div.main{
-    opacity: 0.5;
+    opacity: 0.6;
 
 }
 
@@ -55,7 +55,6 @@ div.row, div.side, div.main{
   -ms-flex: 20%; /* IE10 */
   flex: 20%;
   background-color: #f1f1f1;
-  opacity: 0.5;
   padding: 20px;
 }
 
@@ -64,7 +63,6 @@ div.row, div.side, div.main{
   -ms-flex: 60%; /* IE10 */
   flex: 60%;
   background-color: white;
-  opacity: 0.5;
   padding: 20px;
 }
 
