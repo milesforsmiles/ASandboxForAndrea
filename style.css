@@ -59,6 +59,7 @@ html {
 
 .right + .left {
   margin-left: 25vw;
+  margin-right: 25vw;
 }
 
 /* Main column */
@@ -85,18 +86,9 @@ html {
   flex-direction: column;
 }
 
-.left + .right {
-  margin-top: 10vw;
-}
-
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .mainContainer {
     flex-direction: column;
-  }
-
-  .left + .right {
-    margin-top: 0;
-    margin-left: 12px;
   }
 }
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
