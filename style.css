@@ -83,13 +83,13 @@ margin-left: 5vw;
 
 .mainContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 400px) {
   .mainContainer {
     flex-direction: row;
-  } 
+  }
 
  .left + .right {
    margin-top: 0;
