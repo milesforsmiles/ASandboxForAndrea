@@ -55,7 +55,9 @@ html {
 /* Create two unequal columns that stack on top of each other */
 /* Sidebar/left column */
 .side {
+  overflow: hidden;
   border-collapse: separate;
+  border-color: grey;
   padding: 40px;
   border-radius: 25px;
   -ms-flex: 40%; /* IE10 */
