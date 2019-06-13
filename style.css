@@ -52,9 +52,10 @@ html {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
+/* Create two unequal columns that stack on top of each other */
 /* Sidebar/left column */
 .side {
+  border-radius: 25px;
   -ms-flex: 40%; /* IE10 */
   flex: 40%;
   background-color: rgb(119,136,153,0.6);
@@ -63,6 +64,7 @@ html {
 
 /* Main column */
 .main {
+  border-radius: 25px;
   -ms-flex: 60%; /* IE10 */
   flex: 60%;
   background-color: rgb(222,222,222,0.6);
