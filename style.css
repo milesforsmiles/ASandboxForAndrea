@@ -83,12 +83,12 @@ html {
 
 .mainContainer {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
 }
 
 @media screen and (min-width: 400px) {
   .mainContainer {
+    flex-wrap: wrap;
     flex-direction: column;
   }
 }
