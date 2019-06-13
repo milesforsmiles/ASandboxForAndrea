@@ -58,7 +58,7 @@ html {
 }
 
 .right + .left {
-margin-left: 5vw;
+  margin-top: 12px;
 }
 
 /* Main column */
