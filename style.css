@@ -58,7 +58,7 @@ html {
 }
 
 .right + .left {
-margin: 10vw;
+margin: 5vw;
 margin-left: 5vw;
 }
 
@@ -83,6 +83,7 @@ margin-left: 5vw;
 
 .mainContainer {
   display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 400px) {
