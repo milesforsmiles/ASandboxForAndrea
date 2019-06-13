@@ -58,8 +58,8 @@ html {
 }
 
 .right + .left {
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 /* Main column */
