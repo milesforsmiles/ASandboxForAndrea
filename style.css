@@ -58,7 +58,6 @@ html {
 }
 
 .right + .left {
-margin: 5vw;
 margin-left: 5vw;
 }
 
