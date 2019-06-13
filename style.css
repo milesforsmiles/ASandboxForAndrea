@@ -51,14 +51,15 @@ html {
   overflow: hidden;
   border-collapse: separate;
   border-color: grey;
-  padding: 30px;
+  padding: 20px;
   border-radius:10vw;
   flex: 40%;
   background-color: rgb(119,136,153,0.6);
 }
 
 .right + .left {
-margin: 5vw;
+margin: 10vw;
+margin-left: 5vw;
 }
 
 /* Main column */
@@ -82,13 +83,11 @@ margin: 5vw;
 
 .mainContainer {
   display: flex;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 400px) {
   .mainContainer {
-
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
