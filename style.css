@@ -64,8 +64,8 @@ html {
 
 /* Main column */
 .right {
-  flex: auto;
-  border-radius: 10vw;
+  flex: 30%;
+  border-radius: 5vw;
   background-color: rgb(222,222,222,0.6);
   padding: 30px;
 }
@@ -76,7 +76,7 @@ html {
 }
 
 .footer {
-  margin-top: 10vw;
+  margin-top: 5vw;
   padding: 20px;
   text-align: center;
   background: darkgrey;
