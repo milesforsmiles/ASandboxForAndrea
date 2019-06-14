@@ -58,7 +58,7 @@ html {
 }
 
 .right + .left {
-  margin-top: 12px;
+  margin: 5px;
 }
 
 /* Main column */
@@ -82,12 +82,12 @@ html {
 
 .mainContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 400px) {
   .mainContainer {
-    flex-direction: row;
+    flex-direction: column;
   }
 
  .left + .right {
