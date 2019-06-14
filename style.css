@@ -62,7 +62,7 @@ html {
 
 /* Main column */
 .right {
-  flex: 50%;
+  flex: 80%;
   border-radius: 10vw;
   background-color: rgb(222,222,222,0.6);
   padding: 30px;
