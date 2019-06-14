@@ -58,8 +58,8 @@ html {
 
 .right + .left {
   margin-right: 25px;
-  margin-left: 10px;
-  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-bottom: 40px;
 }
 
 /* Main column */
