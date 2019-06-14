@@ -57,6 +57,7 @@ html {
 
 .right + .left {
   display: flex;
+  flex-direction:row;
   flex-wrap: wrap;
   margin:-10px;
 }
@@ -81,8 +82,8 @@ html {
 }
 
 .mainContainer {
-  display: flex;
-  flex-direction: row;
+  border: 10px;
+  width: 85%;
 }
 
 @media screen and (min-width: 400px) {
