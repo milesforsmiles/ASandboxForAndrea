@@ -58,11 +58,11 @@ html {
 
 .right + .left {
    margin-left: 12px;
-  margin: 15px;
 }
 
 /* Main column */
 .right {
+  margin: 15px;
   flex: 40%;
   border-radius: 10vw;
   background-color: rgb(222,222,222,0.6);
