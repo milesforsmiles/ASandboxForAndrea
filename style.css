@@ -57,7 +57,7 @@ html {
 }
 
 .right + .left {
-   margin-left: 12px;
+   margin-bottom: 25px;
 }
 
 /* Main column */
@@ -81,6 +81,7 @@ html {
 }
 
 .mainContainer {
+  margin:0 auto;
   display: flex;
   flex-direction: row;
 }
