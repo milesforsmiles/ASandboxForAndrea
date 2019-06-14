@@ -56,11 +56,9 @@ html {
 }
 
 .right + .left {
-  max-width: 30%;
-  margin-top: 5vw;
-  margin-right: 5vw;
-  margin-left: 5vw;
-  margin-bottom: 5vw;;
+  display: flex;
+  flex-wrap: wrap;
+  margin:-10px;
 }
 
 /* Main column */
@@ -85,7 +83,6 @@ html {
 .mainContainer {
   display: flex;
   flex-direction: row;
-  flex: 1 1 25%;
 }
 
 @media screen and (min-width: 400px) {
