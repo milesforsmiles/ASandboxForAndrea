@@ -52,14 +52,14 @@ html {
   border-color: grey;
   padding: 30px;
   border-radius:10vw;
-  flex: auto;
+  flex: 30%;
   background-color: rgb(119,136,153,0.6);
 }
 
 .right + .left {
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 40px;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 5vw;;
 }
 
 /* Main column */
