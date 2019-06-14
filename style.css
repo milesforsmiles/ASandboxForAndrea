@@ -52,7 +52,7 @@ html {
   border-color: grey;
   padding: 30px;
   border-radius:10vw;
-  flex: 80%;
+  flex: auto;
   background-color: rgb(119,136,153,0.6);
 }
 
@@ -64,7 +64,7 @@ html {
 
 /* Main column */
 .right {
-  flex: 60%;
+  flex: auto;
   border-radius: 10vw;
   background-color: rgb(222,222,222,0.6);
   padding: 30px;
@@ -83,11 +83,12 @@ html {
 
 .mainContainer {
   display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 400px) {
   .mainContainer {
-    flex-direction: row;
+    flex-direction: column;
   }
 
  .left + .right {
