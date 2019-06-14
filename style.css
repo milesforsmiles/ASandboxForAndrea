@@ -64,7 +64,7 @@ html {
 
 /* Main column */
 .right {
-  flex: 40%;
+  flex: 60%;
   border-radius: 10vw;
   background-color: rgb(222,222,222,0.6);
   padding: 30px;
@@ -83,7 +83,6 @@ html {
 
 .mainContainer {
   display: flex;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 400px) {
