@@ -1,16 +1,12 @@
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-  }
+
+
+/* https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01  */
+
+
 
 #ephemeralClock{
   position: fixed;
+  align-self: center;
   z-index:-1;
   top: 0;
 }
@@ -37,67 +33,77 @@ html {
     font-size: 3.5vw;
     color: white;
     font-style: italic;
-    font-family: 'Courgette';
   }
 
 .navbar a:hover {
-    background-color: green;
+    margin: 0 0 20px 0;
+    color: black;
+    font-weight: lighter;
+    text-shadow:
+  -1px -1px 0 #003,
+  1px -1px 0 #200,
+  -1px 1px 0 #003,
+  1px 1px 0 #200;
 }
 
-/* Create two unequal columns that stack on top of each other */
-/* Sidebar/left column */
-.left {
-  /*Must have hidden overflow to show the rounded border    */
-  overflow: hidden;
-  border-color: grey;
-  padding: 30px;
-  border-radius:10vw;
-  background-color: rgb(119,136,153,0.6);
+/*Removes all underLines on hyperlinks   */
+A {
+  text-decoration: none;
 }
 
-.right + .left {
+#mainBox {
   display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  margin:-10px;
+  width: 100%;
+  margin: 0 0;
 }
 
-/* Main column */
-.right {
+.rightColumn, .leftColumn {
+  font-family: 'Amiri', serif;
+  background: rgba(255,255,255, 0.9);
+  font-size: 22px;
+  align-items: center;
+  min-width: 50px;
+  padding: 10px;
+  width: 45%;
+  margin: 0 25px;
   border-radius: 5vw;
-  background-color: rgb(222,222,222,0.6);
-  padding: 30px;
 }
+
 
 .img {
   width: 100%;
-  opacity: 1.0;
 }
 
 .footer {
   margin-top: 5vw;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  background: darkgrey;
+  background-color: lightgreen;
 }
 
-.mainContainer {
-  border: 10px;
-  width: 85%;
+h2{
+  margin: 0 0 20px 0;
+  color: black;
+  font-weight: lighter;
+  text-shadow:
+-1px -1px 0 #003,
+1px -1px 0 #200,
+-1px 1px 0 #000,
+1px 1px 0 #200;
 }
 
-@media screen and (min-width: 400px) {
-  .mainContainer {
-    flex-direction: column;
+
+/* Responsive layout - when the screen is less than 500px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  #mainBox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rightColumn, .leftColumn {
+    width: 100%;
+    background: rgba(110, 130, 80, 0.1)
   }
 
- .left + .right {
-   margin-top: 0;
-   margin-left: 12px;
- }
-}
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
   .navbar {
     float: none;
   }

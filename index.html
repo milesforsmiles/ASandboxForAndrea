@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
 <title>Andrea's Sandbox</title>
 </head>
@@ -22,26 +23,43 @@ style="background-color:white">
 	</div>
 <br>
 <br>
-	<div class="mainContainer">
-	  <div class="left" border-radius = 25px;>
+	<div  id="mainBox">
+	  <div class="leftColumn" >
 	    <h2>Hello, hello!</h2>
-	    <h5>Andrea Miles</h5>
-	    <img src="Me.jpg" alt="Me" style="width:300px;height:350px;"></img>
-	    <p>I like jalapeno chips.</p>
-	    <h4>Learning new programming concepts</h4>
-	    <p>And getting a full eight hours of sleep.</p>
-			<img src="Layla.jpg" alt="Layla" style="width:300px;height:350px;"></img>
+			<section onmouseover="onMouseOver(this)" onmouseout="onMouseOut(this)">
+			<h3>My First Website</h3>
+			<p>
+			 This is my first real website. I had a lot of difficulties with making
+			 it match up with the landscape in my head. I'm currently learning HTML5,
+			 CSS, and JavaScript along with some web frameworks like Node.js as an
+			 intern at AirSpeed Academy. I hope this website will showcase some of
+			 the skills I've acquired during the summer. This website follows the
+			 recommended standards of Html5.
+		 </p>
+			</section>
+
+	    <img src="Me.jpg" alt="A picture of myself" style="width:300px;height:350px;"></img>
+			<section onmouseover="onMouseOver(this)" onmouseout="onMouseOut(this)" >
+			<h3>About Me</h3>
+	    <p>
+				There is nothing better than a bag of jalapeno chips
+				and a good sci-fi book. Some of my favorite author's include
+				H.G. Wells, Arthur C. Clark, and Phillip K. Dick.
+			</p>
+		</section>
+			<img src="Layla.jpg" alt="A picture of my dog Layla" style="width:300px;height:350px;"></img>
 	  </div>
-	  <div class="right">
+	  <div class="rightColumn">
 	    <h2>Miles and Miles and miles of smiles</h2>
 	    <h5>Born December 1st, 1991</h5>
-	   	<img src="TytoonaWalkWay.jpg" style="height:400px;"></img><br>
+	   	<img src="TytoonaWalkWay.jpg" alt="A picture of a Cave" style="height:400px;"></img><br>
 	    <p>I'm blue and I'm an ameeeoba and I. like ameoba and ties.</p>
 	    <p>lkjsadfasljfsdklajflkjasdlkfj lkjakfjalfkdjslkfjaskjfklsafkjaslkfj.</p>
 	    <br>
 	  </div>
 	</div>
-
+<!-- http://html5doctor.com/element-index/#form2 -->
+<!-- https://eloquentjavascript.net/15_event.html -->
 	<div class="footer">
   <h2>Thanks for looking!</h2>
 	</div>

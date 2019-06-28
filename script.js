@@ -82,3 +82,25 @@
         ctx.stroke();
         ctx.rotate(-pos);
     }
+
+    window.addEventListener("click", () => {
+                console.log("Woah! You found me?");
+                console.log("Did you know there's a clock in here?");
+    });
+
+    function onMouseOver(obj) {
+      const sectionTag = document.getElementsByTagName('section');
+      for (i = 0; i < sectionTag.length; i++) {
+          sectionTag[i].style.display = "";
+    }
+    }
+
+    function onMouseOut(obj) {
+      const sectionTag = document.getElementsByTagName('section');
+      for (i = 0; i < sectionTag.length; i++) {
+          sectionTag[i].style.display = "none";
+    }
+    }
+
+
+    
