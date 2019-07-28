@@ -88,19 +88,54 @@
                 console.log("Did you know there's a clock in here?");
     });
 
-    function onMouseOver(obj) {
-      const sectionTag = document.getElementsByTagName('section');
-      for (i = 0; i < sectionTag.length; i++) {
-          sectionTag[i].style.display = "";
+
+var xHeight = 10;
+var maxHeight = 400;
+
+document.getElementById("resize").addEventListener("mouseenter", function (event) {
+    event.preventDefault();
+    console.log(xHeight);
+    requestID = requestAnimationFrame(animate);
+    
+}
+);
+
+function animate() {
+    requestID = requestAnimationFrame(animate);
+ 
+    if (xHeight <= 400) {
+       
+        document.getElementById("resize").style.height = xHeight + 'px';
+        xHeight = xHeight + 2;
+        console.log(xHeight);
     }
+    else {
+        cancelAnimationFrame(requestID);
+    }
+    
+}
+
+document.getElementById("resize").addEventListener("click", function (event) {
+    event.preventDefault();
+    console.log(maxHeight);
+    requestID = requestAnimationFrame(animateClick);
+    xHeight = 10;
+}
+);
+
+function animateClick() {
+    requestID = requestAnimationFrame(animateClick);
+
+    if (maxHeight >= 8) {
+        document.getElementById("resize").style.height = maxHeight + 'px';
+        maxHeight = maxHeight - 2;
+        console.log(maxHeight);
+    }
+    else {
+        cancelAnimationFrame(requestID);
     }
 
-    function onMouseOut(obj) {
-      const sectionTag = document.getElementsByTagName('section');
-      for (i = 0; i < sectionTag.length; i++) {
-          sectionTag[i].style.display = "none";
-    }
-    }
+}
 
 
     
